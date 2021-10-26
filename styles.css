@@ -7,11 +7,11 @@
 body {
     min-width: 100%;
     min-height: 100vh;
-    background: linear-gradient(7.28deg, #cce0ff 0%, #FFFFFF 99.69%);
+    background: linear-gradient(7.28deg, #dae8fc 0%, #FFFFFF 99.69%);
     font-family: 'Hellix';
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-weight: 500;
 }
 
@@ -22,6 +22,10 @@ h1 {
 
 h2 {
     font-size: 32px;
+}
+
+h3 {
+    font-size: 48px;
 }
 
 p {
@@ -43,14 +47,25 @@ p {
 
 .content-section-container {
     margin: 40px 15px;
+    padding-bottom: 30px;
 }
 
 .text-center {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .content-section-container img {
     width: 100%;
+}
+
+.section-2-background {
+    margin: 20px -15px;
+    padding: 40px 15px 40px 15px;
+    background-color: #F2F8FF;
 }
 
 .btn {
