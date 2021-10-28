@@ -7,11 +7,11 @@
 body {
     min-width: 100%;
     min-height: 100vh;
-    background: linear-gradient(7.28deg, #dae8fc 0%, #FFFFFF 99.69%);
+    /*background: linear-gradient(7.28deg, #dae8fc 0%, #FFFFFF 99.69%);*/
     font-family: 'Hellix';
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
     font-weight: 500;
 }
 
@@ -27,6 +27,10 @@ h2 {
 
 h3 {
     font-size: 32px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 p {
@@ -62,10 +66,23 @@ p {
     width: 100%;
 }
 
-.blue-bg {
+.full-width {
     margin: 20px -15px;
     padding: 40px 15px 40px 15px;
+}
+
+.light-bg {
     background-color: #F2F8FF;
+}
+
+.trainer-container {
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    padding: 70px 5px 0;
+}
+
+.trainer-container > img {
+    opacity: 0.5;
+    
 }
 
 .btn {
@@ -80,4 +97,9 @@ p {
 .btn-primary {
     background: #4B5092;
     color: white;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #436BAA;
 }
