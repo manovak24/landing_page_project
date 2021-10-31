@@ -66,23 +66,16 @@ p {
     width: 100%;
 }
 
-.full-width {
-    margin: 20px -15px;
-    padding: 40px 15px 40px 15px;
+.section-two-container img {
+    width: 100%;
+}
+
+.section-two-container div {
+    padding: 50px 15px 40px;
 }
 
 .light-bg {
     background-color: #F2F8FF;
-}
-
-.trainer-container {
-    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
-    padding: 70px 5px 0;
-}
-
-.trainer-container > img {
-    opacity: 0.5;
-    
 }
 
 .btn {
