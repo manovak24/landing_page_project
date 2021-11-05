@@ -29,6 +29,11 @@ h3 {
     font-size: 32px;
 }
 
+h4 {
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
 h5 {
     font-size: 18px;
     margin-bottom: 25px;
@@ -83,6 +88,7 @@ p {
 .trainer-container {
     background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
     padding: 100px 15px 0;
+    margin-bottom: 100px;
 }
 
 .trainer-container img {
@@ -90,8 +96,40 @@ p {
     margin-bottom: -5px;
 }
 
+.benefits-container > div {
+    padding: 40px 15px;
+}
+
+.benefits-container img {
+    width: 100%;
+}
+
+.benefit {
+    background-color: cornflowerblue;
+    margin: 20px 0;
+    padding: 40px 20px;
+    border-radius: 30px;
+}
+
+.benefit h4, .benefit p {
+    margin-right: 50px;
+}
+
+.benefit h4 {
+    margin-bottom: 20px;
+}
+
+.blue-bg {
+    background-color: #E4F0FF;
+}
+
+.purple-bg {
+    background-color: rgba(114, 122, 239, 0.1);;
+}
+
 .btn {
     text-decoration: none;
+    text-align: center;
     display: block;
     width: 225px;
     padding: 15px 0;
