@@ -105,18 +105,20 @@ p {
 }
 
 .benefit {
+    width: 350px;
     background-color: cornflowerblue;
     margin: 20px 0;
     padding: 40px 20px;
     border-radius: 30px;
 }
 
-.benefit h4, .benefit p {
-    margin-right: 50px;
-}
-
 .benefit h4 {
     margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+.benefit p {
+    margin-right: 30px;
 }
 
 .blue-bg {
