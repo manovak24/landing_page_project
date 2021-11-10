@@ -148,15 +148,25 @@ footer a {
 form {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
 }
 
+form > input {
+    height: 40px;
+    width: 55%;
+    padding-left: 10px;
+    text-align: left;
+}
 
+form > button {
+    height: 40px;
+    width: 10%;
+    padding-right: 10px;
+}
 
 .input {
     background-color: white;
     border: none;
-    
 }
 
 .blue-bg {
