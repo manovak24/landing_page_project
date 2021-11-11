@@ -107,7 +107,7 @@ p {
 .benefit {
     width: 340px;
     background-color: cornflowerblue;
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 40px 20px;
     border-radius: 30px;
 }
@@ -148,25 +148,35 @@ footer a {
 form {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 form > input {
     height: 40px;
-    width: 55%;
     padding-left: 10px;
+    padding-right: 75px;
     text-align: left;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 form > button {
     height: 40px;
-    width: 10%;
+    
     padding-right: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .input {
     background-color: white;
     border: none;
+}
+
+.input:hover {
+    opacity: .8;
+    transition: .3s ease all;
+    cursor: pointer;
 }
 
 .blue-bg {
@@ -185,6 +195,12 @@ form > button {
     padding: 15px 0;
     border-radius: 50px;
     margin: 30px auto;
+}
+
+.btn:hover {
+    opacity: .8;
+    transition: .3s ease all;
+    cursor: pointer;
 }
 
 .btn-primary {
