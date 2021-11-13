@@ -105,8 +105,7 @@ p {
 }
 
 .benefit {
-    width: 340px;
-    background-color: cornflowerblue;
+    width: 345px;
     margin: 20px auto;
     padding: 40px 20px;
     border-radius: 30px;
@@ -139,7 +138,7 @@ footer a {
 .footer-links {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .footer-links a {
