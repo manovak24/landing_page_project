@@ -56,6 +56,10 @@ p {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
+.nav-links {
+    display: none;
+}
+
 .content-section-container {
     margin: 40px 15px 100px;
 }
@@ -234,4 +238,42 @@ color: #111235;
 .btn-secondary {
     background-color: #ffffff;
     color: #436BAA;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .top-bar {
+        justify-content: space-between;
+        margin: 0 50px;
+        box-shadow: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links > a, .nav-links > img {
+        margin: 0 10px;
+        color: #111235;
+    }
+
+    .content-section-container {
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .content-section-container > img {
+        margin-right: -40px;
+    }
+
+    .content-section-container > div {
+        text-align: left;
+    }
+
+    .btn {
+        display: inline-block;
+    }
 }
