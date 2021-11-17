@@ -11,7 +11,10 @@ body {
     font-family: 'Hellix';
 }
 
-h1, h2, h3, h5 {
+h1,
+h2,
+h3,
+h5 {
     font-weight: 500;
 }
 
@@ -100,7 +103,7 @@ p {
     margin-bottom: -5px;
 }
 
-.benefits-container > div {
+.benefits-container>div {
     padding: 40px 15px;
 }
 
@@ -136,7 +139,7 @@ footer h3 {
 
 footer a {
     text-decoration: none;
-    color:  #111235;
+    color: #111235;
 }
 
 .footer-links {
@@ -156,7 +159,7 @@ form {
     margin-bottom: 25px;
 }
 
-form > input {
+form>input {
     padding-left: 10px;
     padding-right: 35px;
     text-align: left;
@@ -164,7 +167,7 @@ form > input {
     border-bottom-left-radius: 8px;
 }
 
-form > button {
+form>button {
     padding-right: 10px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -183,20 +186,24 @@ form > button {
     cursor: pointer;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #111235;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-color: #111235;
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #111235;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-color: #111235;
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #111235;
 }
 
-.social-links > a {
+.social-links>a {
     margin: auto 10px;
 }
 
@@ -211,7 +218,8 @@ color: #111235;
 }
 
 .purple-bg {
-    background-color: rgba(114, 122, 239, 0.1);;
+    background-color: rgba(114, 122, 239, 0.1);
+    ;
 }
 
 .btn {
@@ -242,9 +250,13 @@ color: #111235;
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 72px;
+    }
+
     .top-bar {
         justify-content: space-between;
-        margin: 0 50px;
+        margin: 0 100px;
         box-shadow: none;
     }
 
@@ -252,25 +264,33 @@ color: #111235;
         display: flex;
     }
 
-    .nav-links > a, .nav-links > img {
-        margin: 0 10px;
+    .nav-links>a,
+    .nav-links>img {
+        margin: 0 20px;
         color: #111235;
+        text-decoration: none;
     }
 
     .content-section-container {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
 
-    .content-section-container > img {
+    .content-section-container>img {
         margin-right: -40px;
+        
     }
 
-    .content-section-container > div {
+    .content-section-container>div {
         text-align: left;
+        
+    }
+
+    .content-section-container>div>p {
+        width: 70%;
     }
 
     .btn {
