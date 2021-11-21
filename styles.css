@@ -281,8 +281,8 @@ form>button {
     }
 
     .content-section-container>img {
+        width: 50%;
         margin-right: -40px;
-        
     }
 
     .content-section-container>div {
@@ -336,8 +336,6 @@ form>button {
         text-align: left;
         padding-left: 75px;
     }
-
-    
 
     .trainer-container>img {
         width: 50%;
