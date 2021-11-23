@@ -47,6 +47,11 @@ p {
     color: #111235;
 }
 
+.main-body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .header-bold {
     font-weight: 700;
 }
@@ -104,17 +109,21 @@ p {
     margin-bottom: -5px;
 }
 
-.benefits-container>div {
-    padding: 40px 15px;
+.benefits-heading {
+    margin: 50px 15px;
 }
 
 .benefits-container img {
     width: 100%;
 }
 
+.benefits-container > a {
+    margin-bottom: 70px;
+}
+
 .benefit {
-    width: 345px;
-    margin: 20px auto;
+    width: 90%;
+    margin: 20px 15px;
     padding: 40px 20px;
     border-radius: 30px;
 }
@@ -249,10 +258,18 @@ form>button {
     color: #436BAA;
 }
 
+.large-screen {
+    display: none;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     h1 {
         font-size: 72px;
+    }
+
+    .main-body {
+        max-width: 1400px;
     }
 
     .top-bar {
@@ -267,7 +284,7 @@ form>button {
 
     .nav-links>a,
     .nav-links>img {
-        margin: 0 20px;
+        margin-left: 20px;
         color: #111235;
         text-decoration: none;
     }
@@ -294,24 +311,19 @@ form>button {
         width: 70%;
     }
 
-    .btn {
-        margin: 30px 0;
-    }
-
     .section-two-container {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        margin: 0 100px;
     }
 
     .section-two-container>img {
         margin-top: -100px;
-        margin-left: -10px;
-        width: 40%;
+        margin-left: -40px;
     }
     
     .section-two-container>div {
-        width: 40%;
         border-radius: 50px;
         padding-left: 50px;
         padding-right: 50px;
@@ -329,7 +341,7 @@ form>button {
     }
 
     .trainer-info {
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -340,5 +352,52 @@ form>button {
     .trainer-container>img {
         width: 50%;
         margin-bottom: 0;
+    }
+
+    .benefits-container {
+        margin: 0 100px 100px;
+    }
+
+    .benefits-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .benefit-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .benefit-flex>img {
+        width: 45%;
+        margin-left: -100px;
+        margin-right: -40px;
+     }
+
+    .individual-benefit-section {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .benefit {
+        width: 40%;
+        margin: 10px 5px;
+    }
+
+    .btn {
+        margin: 30px 0;
+    }
+
+    .small-screen {
+        display: none;
+    }
+
+    .large-screen {
+        display: inline-block;
     }
 }
