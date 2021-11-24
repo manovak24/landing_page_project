@@ -372,20 +372,17 @@ form>button {
     }
 
     .benefit-flex>img {
-        width: 45%;
-        margin-left: -100px;
-        margin-right: -40px;
+        width: 35%;
      }
 
     .individual-benefit-section {
-        width: 70%;
         display: flex;
         flex-wrap: wrap;
     }
 
     .benefit {
-        width: 40%;
-        margin: 10px 5px;
+        width: 45%;
+        margin: 15px 10px;
     }
 
     .btn {
@@ -397,6 +394,6 @@ form>button {
     }
 
     .large-screen {
-        display: inline-block;
+        display: inline;
     }
 }
