@@ -156,7 +156,7 @@ footer a {
 .footer-links {
     display: flex;
     flex-direction: column;
-    margin-bottom: 35px;
+
 }
 
 .footer-links a {
@@ -169,6 +169,7 @@ form {
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
+    margin-top: 35px;
 }
 
 .form-content {
@@ -404,13 +405,30 @@ form {
         display: inline;
     }
 
+    footer {
+        margin: 0 100px 100px;
+    }
+
     .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     }
 
+    .footer-links a {
+        margin: 10px 0 15px;
+        text-align: left;
+    }
+
+    form {
+        margin-top: 0;
+    }
+    
     .social-links {
         display: none;
+    }
+
+    .copyright {
+        text-align: left;
     }
 }
