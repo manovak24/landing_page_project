@@ -419,8 +419,8 @@ form {
         margin: 10px 0 15px;
         text-align: left;
     }
-
     form {
+        align-items: flex-start;
         margin-top: 0;
     }
     
@@ -430,5 +430,6 @@ form {
 
     .copyright {
         text-align: left;
+        margin-top: 0;
     }
 }
