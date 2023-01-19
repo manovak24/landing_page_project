@@ -1,5 +1,4 @@
 const navbar = document.querySelector(".top-bar");
-const sticky = navbar.offsetTop;
 
 // console.log(sticky + "sticky")
 // console.log(scrollY)
