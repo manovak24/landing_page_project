@@ -1,5 +1,4 @@
 const navbar = document.querySelector(".top-bar");
-// console.log(scrollY)
 
 document.addEventListener("scroll", () => {
     if (scrollY > 100) {
@@ -7,5 +6,4 @@ document.addEventListener("scroll", () => {
     } else {
         navbar.classList.remove("sticky");
     }
-    // console.log(scrollY + "scroll")
 })
