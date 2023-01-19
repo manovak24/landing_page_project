@@ -1,6 +1,4 @@
 const navbar = document.querySelector(".top-bar");
-
-// console.log(sticky + "sticky")
 // console.log(scrollY)
 
 document.addEventListener("scroll", () => {
