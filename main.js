@@ -1,11 +1,8 @@
-// window.onscroll = function() {myFunction()};
-
 const navbar = document.querySelector(".top-bar");
-
 const sticky = navbar.offsetTop;
 
-console.log(sticky + "sticky")
-console.log(scrollY)
+// console.log(sticky + "sticky")
+// console.log(scrollY)
 
 document.addEventListener("scroll", () => {
     if (scrollY > 100) {
@@ -13,6 +10,5 @@ document.addEventListener("scroll", () => {
     } else {
         navbar.classList.remove("sticky");
     }
-
-      console.log(scrollY + "scroll")
+    // console.log(scrollY + "scroll")
 })
